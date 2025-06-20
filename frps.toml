@@ -1,0 +1,13 @@
+bindPort = 11117
+bindAddr = "0.0.0.0"
+
+transport.tls.force = true  
+
+[webServer]
+addr = "0.0.0.0"
+port = 11118
+user = "admin"
+password = "admin123"
+
+log.to = "console"
+log.level = "info"
